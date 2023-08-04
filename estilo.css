@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+form{
+    border: 2px solid rgb(10, 0, 2);
+    width: 300px;
+    height: 300px;
+    margin: 150px auto 210px auto;
+    background: #00000062;
+    border-radius: 20px;
+}
+body{
+    background: #F435DC;
+    background: -moz-linear-gradient(45deg, #F435DC 0%, #DC9CFF 28%, #F5E647 100%);
+    background: -webkit-linear-gradient(45deg, #F435DC 0%, #DC9CFF 28%, #F5E647 100%);
+    background: linear-gradient(45deg, #F435DC 0%, #DC9CFF 28%, #F5E647 100%) no-repeat;
+    height: 100%;
+}
+
+input[type="email"] {
+    margin: 20px auto 0px 20px;
+    height:35px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+input[type="password"]{
+    margin: 0px auto 10px 20px;
+    height:35px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    line-height: 1px;
+}
+
+button[type="submit"]{
+    color: rgb(255, 255, 255);
+    background-color: deeppink;
+    padding: 5px;
+    margin: 0px 5px 0px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button[type="reset"]{
+    padding: 5px;
+    margin: 0px 40px 0px 0px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+
+#cadastro{
+    margin-left: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#unicornio{
+    text-align: center;
+    font-size:50px;
+}
+
